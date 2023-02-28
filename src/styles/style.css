@@ -1,0 +1,98 @@
+body {
+  background: whitesmoke;
+}
+
+.title {
+  position: relative;
+}
+
+.title h1 {
+  text-transform: capitalize;
+}
+
+.title h3 {
+  width: 80%;
+  background: tan;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.p {
+  color: red;
+  font-size: 22px;
+  font-weight: 500;
+  text-decoration:underline;
+}
+
+img {
+  border-radius: 10%;
+  width: 500px;
+}
+
+form {
+  margin-top: 2%;
+}
+
+.container {
+  display: inline;
+}
+
+label {
+  padding-left: 1%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+input {
+  border-radius: 5px;
+  background-color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.button {
+  margin-top: 3%;
+}
+
+.button button {
+  background: transparent;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.button button:hover {
+  background: goldenrod;
+}
+
+
+.image {
+  margin-top: 5%;
+}
+
+@media (max-width: 765px) {
+  .container {
+    display: block;
+    padding: .40rem;
+  }
+  img {
+    width: 300px;
+    margin-top: 5%;
+  }
+
+  form {
+    margin-top: 5%;
+  }
+
+  .title h3 {
+    text-align: justify;
+  }
+  .button button {
+    margin-top: 3%;
+  }
+}
