@@ -29,7 +29,7 @@ const Triangule = () => {
     <div>
       <div className="title">
         <h1>Identifica el tipo de triángulo</h1>
-        <h3>Coloca los valores, para conocer el tipo de triángulo que se relaciona según los ángulos ingresados.</h3>
+        <h3>Coloca los valores de cada lado, para conocer el tipo de triángulo. - Escaleno - Equilatero - Isosceles.</h3>
       </div>
       <form>
         <div className="container">
